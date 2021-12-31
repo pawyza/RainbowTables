@@ -1,0 +1,3 @@
+https://project-rainbowcrack.com/generate.htm
+
+Lista dozwolonych charsetów w charset.txt
