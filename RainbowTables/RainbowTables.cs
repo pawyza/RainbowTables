@@ -27,6 +27,7 @@ namespace RainbowTables
             random = new Random();
             MD5hash = new MD5CryptoServiceProvider();
             InitializeComponent();
+            RainbowTablesDirectory_TextBox.Text = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\Resources\RainbowTables";
         }
 
         private void GenerateValues_Button_Click(object sender, EventArgs e)
